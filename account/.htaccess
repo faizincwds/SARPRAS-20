@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^beranda index.php?p=beranda [NC,L]
+RewriteRule ^pengguna index.php?p=pengguna [NC,L]
+RewriteRule ^setting index.php?p=setting [NC,L]
+RewriteRule ^riwayat index.php?p=riwayat [NC,L]
+RewriteRule ^profil index.php?p=profil [NC,L]
+RewriteRule ^approval index.php?p=approval [NC,L]
+
+RewriteRule ^request index.php?p=request [NC,L]
+RewriteRule ^acc index.php?p=acc [NC,L]
+RewriteRule ^broken index.php?p=broken [NC,L]
+RewriteRule ^hide index.php?p=hide [NC,L]
+RewriteRule ^items index.php?p=items [NC,L]
+RewriteRule ^stock index.php?p=stock [NC,L]
+RewriteRule ^report index.php?p=report [NC,L]
+
+RewriteRule ^laporan index.php?p=laporan [NC,L]
+
+RewriteRule ^data-order index.php?p=data-order [NC,L]
+RewriteRule ^order index.php?p=order [NC,L]
+RewriteRule ^histori index.php?p=histori [NC,L]
+
+
+
+
+</IfModule>

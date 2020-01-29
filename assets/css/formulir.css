@@ -1,0 +1,155 @@
+body{
+font-family:Segoe UI;
+}
+h3{
+	font-weight: bold;
+	font-size: 12pt;
+	margin:0;
+	padding:0;
+}
+.wrapper1{
+	margin		:0 auto;
+	padding		:5px;
+	min-width	:650px;
+	max-width	:900px;
+}
+
+.head{
+	margin		:0 auto;
+	margin-left	:15px;
+	max-width	:800px;   
+	border-bottom: 3px solid #111;
+    border-bottom-style: double;
+	border-bottom-width: 6px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+.page_break { page-break-before: always; }
+#head{
+	float	:left;
+	height	:130px;
+}
+#text-head{
+	text-align	:center;
+	margin-left :10%;
+}
+#text-head h1{
+	font-weight: bold;
+	font-size: 16pt;
+	margin:0;
+	padding:0;
+}
+#text-head h2{
+	font-weight: bold;
+	font-size: 14pt;
+	margin:0;
+	padding:0;
+}
+#text-head h3{
+	font-weight: bold;
+	font-size: 12pt;
+	margin:0;
+	padding:0;
+}
+#text-head h4{
+	font-weight: bold;
+	font-size: 10pt;
+	margin:0;
+	padding:0;
+	
+}
+
+#head img{
+	float:left;
+	margin-top:8px;
+	width	:100px;
+	height	:90px;
+	
+}
+
+.konten h3{
+	text-align:center; 
+	padding:20px; 
+	font-family:Segoe UI;
+	
+}
+
+.konten table{
+	margin	:0 auto;
+	width	:700px;
+	font-family:Segoe UI;
+}
+
+.colo{
+	border:1px solid #333; width:350px; height:22px; float:left; padding-left:10px;
+	font-family:Segoe UI;
+}
+
+
+.kopo{
+	float:left; margin-left:5%; margin-top:10%;
+}
+.poto{
+	width:3cm;  height:4cm; font-family:arial; font-weight:bold; border:1px solid #111;
+}
+
+.ttd{
+	float:right;
+	width:30%;
+	text-align:center;
+	margin-top:5%;
+	margin-right:15%;
+	font-family:Segoe UI;
+}
+
+.kotak2{
+	margin	:0 auto;
+	width	:700px;
+	border-top: 3px solid #111;
+    /*border-top-style: dashed;
+	margin-top: 5%;
+	padding-top: 5%;*/
+	font-family:Segoe UI;
+}
+
+@media(min-width:368px){
+.konten h3{
+	text-align:center; 
+	padding:20px; 
+	font-family:Segoe UI;
+	font-size: 8pt;
+}
+
+#text-head h1{
+	font-weight: bold;
+	font-size: 16pt;
+	margin:0;
+	padding:0;
+}
+#text-head h2{
+	font-weight: bold;
+	font-size: 14pt;
+	margin:0;
+	padding:0;
+}
+#text-head h3{
+	font-weight: bold;
+	font-size: 8pt;
+	margin:0;
+	padding:0;
+}
+#text-head h4{
+	font-weight: bold;
+	font-size: 10pt;
+	margin:0;
+	padding:0;
+	
+}
+
+#head img{
+	float:left;
+	width	:100px;
+	height	:90px;
+	
+}
+}
